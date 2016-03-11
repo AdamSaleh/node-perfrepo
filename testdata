@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testExecution name="name1" started="2015-03-16T14:05:27.729+01:00" testId="2">
+  <parameters>
+    <parameter name="command1" value="test command1"/>
+    <parameter name="command2" value="test command2"/>
+  </parameters>
+  <tags>
+    <tag name="as"/>
+    <tag name="df"/>
+  </tags>
+  <values>
+    <parameter name="time" value="12.0"/>
+  </values>
+</testExecution>
