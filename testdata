@@ -9,6 +9,22 @@
     <tag name="df"/>
   </tags>
   <values>
-    <parameter name="time" value="12.0"/>
+    <value metricName="time" result="12.0">
+          <parameters>
+                      <parameter name="param1" value="1"/>
+          </parameters>
+    </value>    
+<value metricName="time" result="13.0">
+          <parameters>
+                      <parameter name="param1" value="2"/>
+          </parameters>
+    </value> 
+<value metricName="time" result="14.0">
+          <parameters>
+                      <parameter name="param1" value="3"/>
+          </parameters>
+    </value> 
   </values>
 </testExecution>
+
+      "cpu": [{"value": 10.0, "params": {"t":0}},{"value": 11.0, "params": {"t":1}},{"value": 10.0, "params": {"t":2}}]

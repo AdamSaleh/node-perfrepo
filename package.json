@@ -15,7 +15,9 @@
     "lodash": "^4.6.1",
     "optimist": "^0.6.1",
     "request-promise": "^2.0.1",
+    "sax": "^1.1.6",
     "semistandard": "^7.0.5",
-    "xml": "^1.0.1"
+    "xml": "^1.0.1",
+    "xml-object-stream-sax": "^0.3.0"
   }
 }

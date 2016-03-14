@@ -4,6 +4,7 @@
  "uid": "testuid",
  "description": "Example test description",
  "metrics": {
-   "time": {"comparator": "LB", "description": "time"}
+   "time": {"comparator": "LB", "description": "time"},
+   "multimetric": {"comparator": "LB", "description": "multimetric"}
  }
 }
